@@ -1,0 +1,15 @@
+exportPattern("^[[:alpha:]]+")
+useDynLib(funclustweight, .C_imahalanobis)
+useDynLib(funclustweight, .C_rmahalanobis)
+useDynLib(funclustweight, .C_mstep)
+import(fds)
+importFrom("graphics", "abline", "lines", "par", "plot", "points","text",
+           "title", "mtext")
+importFrom("stats", "kmeans", "rmultinom", "cov.wt", "uniroot", "runif", "rt",
+           "rnorm")
+importFrom("utils", "data", "flush.console")
+importFrom("tclust", "tkmeans")
+importFrom("stringr", "str_pad")
+importFrom("MASS", "mvrnorm", "ginv")
+importFrom("fda", "create.fourier.basis", "create.bspline.basis", "eval.basis",
+           "smooth.basis", "plot.fd", "is.fd", "Eigen", "inprod" )

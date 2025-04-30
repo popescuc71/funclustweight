@@ -1,0 +1,13 @@
+bibentry(bibtype = "Article",
+  title        = "Model-Based Clustering of Functional Data via Mixtures of t-Distribution",
+  author       = c(person(given = c("Cristina"),
+                          family = "Anton",
+                          email = "popescuc@macewan.ca"),
+                   person(given = c("Iain"),
+                          family = "Smith",
+                          email = "smithi23@mymacewan.ca")),
+  journal      = "Advances in Data Analysis and Classification", 
+  year         = 2023,
+  doi          = "10.1007/s11634-023-00542-w",
+  header       = "To cite tfunHDDC in publications use:"
+)
