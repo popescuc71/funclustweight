@@ -83,7 +83,7 @@ Vector of values to use for the intrinsic dimension for each group when d_select
 }
 
   \item{verbose}{
-Whether to print progress and approximate timing information as tfunHDDC executes. TRUE (default when running in serial) or FALSE (default when running parallel).
+Whether to print progress and approximate timing information as funclustweight executes. TRUE (default when running in serial) or FALSE (default when running parallel).
 }
 }
 \details{
